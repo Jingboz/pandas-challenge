@@ -1,2 +1,11 @@
 # pandas-challenge
 Homework of module 4 pandas
+
+Summarises the analysis
+After importing the datasets, we matched the schools list to the students list and combine these two into a single table based on the school names. The first step of the analysis is to calculate the iconic statistics, such as total number of schools, average score and passing rate, in order to get a better overview and setup the benchmark. And then we want to have a further look at the statistics among different schools, from which we can compare relationship between school types, the budget per student and average scores. Top five performing schools and bottom five were extracted from the previous dataset based on the overall passing rate. Moreover, we discarded the overall statistics of each school such total students and total budget, instead, we narrow down the scores to each year and compare the difference across all schools. At last, we tested the binning mathod to group all the schools from three perspectives, school spending, school size and school type. These summaries provide the same function of pivot table from Excel sheet, which can illustrate the difference from specific perspectives more intuitively.
+
+
+Draws two correct conclusions or comparisons from the calculations
+1. In general, independent schools have less students then the government ones, also less total budget, which leads to the per student budget fairly comparable between these two types of school. But in top five performing schools, independent schools have two on the top and one on the fourth, and just one in the bottom five performing schools. Thus, the overall passing rate of schools is not correlated with the budget on each student. This can be also drawn from the "Scores by School Spending" table. Even though in the highest budget category, the overall passing rate is still the lowest.
+
+2. In terms of the school size and type, there is a tendency between them and the overall passing rate. From the last two tables we can see that the smaller the schools are, the better scoring students will have. And the independent schools have generally better performing than the government schools. But still these conclusions have the constraints of limited data base that may not reflect the true situations.
